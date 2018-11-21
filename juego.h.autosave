@@ -1,0 +1,16 @@
+#ifndef JUEGO_H
+#define JUEGO_H
+
+#include <QGraphicsView>
+#include <QWidget>
+#include <QGraphicsScene>
+#include "MiRecta.h"
+#include "puntaje.h"
+
+class Juego: public QGraphicsView
+{
+public:
+    Juego(QWidget * causa=0);
+};
+
+#endif // JUEGO_H
